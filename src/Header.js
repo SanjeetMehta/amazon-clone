@@ -2,6 +2,7 @@ import React from "react";
 import {Link} from "react-router-dom";
 import SearchIcon from "@material-ui/icons/Search";
 import ShoppingBasketIcon from "@material-ui/icons/ShoppingBasket";
+import "./Header.css";
 
 function Header() {
     return (
