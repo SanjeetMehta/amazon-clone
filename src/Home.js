@@ -12,14 +12,14 @@ function Home() {
             />
             <div className="home_row">
                 <Product
-                    id="123"
+                    id="1"
                     title="Faawn Smart Watches with Bluetooth, Sim Card Health and Fitness Tracker Smart Watches for Boys Mens and Girls ( smartwatch ) - (Black)"
                     price={11.96}
                     rating={5}
                     image="https://images-na.ssl-images-amazon.com/images/I/51LO7NCsMjL.jpg"
                 />
                 <Product
-                    id="123"
+                    id="2"
                     title="Amazon Echo (3rd Gen) – Improved sound, powered by Dolby (White)"
                     price={11.96}
                     rating={5}
@@ -29,21 +29,21 @@ function Home() {
 
             <div className="home_row">
                 <Product
-                    id="123"
+                    id="3"
                     title="Samsung 6.2 kg Fully-Automatic Top load Washing Machine (WA62M4100HY/TL, Imperial Silver)"
                     price={11.96}
                     rating={5}
                     image="https://static.digit.in/product/9ed2dfd640ef687d654ad0d316a368096f6e15cc.jpeg?tr=n-product_detail_leader_thumb"
                 />
                 <Product
-                    id="123"
+                    id="4"
                     title="The Lean Startup: How Today's Entrepreneurs Use Continuous Innovation to Create Radically Successful Businesses"
                     price={11.96}
                     rating={5}
                     image="https://rukminim1.flixcart.com/image/416/416/jtyouq80/book/6/1/4/the-lean-startup-original-imaff69qyjpfyvrc.jpeg?q=70"
                 />
                 <Product
-                    id="123"
+                    id="5"
                     title="Apple iPhone SE (Black, 64 GB)"
                     price={11.96}
                     rating={5}
@@ -53,7 +53,7 @@ function Home() {
 
             <div className="home_row">
                 <Product
-                    id="123"
+                    id="6"
                     title="LG 80cm (32 inch) HD Ready LED Smart TV 2020 Edition  (32LM565BPTA)"
                     price={11.96}
                     rating={5}

@@ -11,9 +11,15 @@ const reducer = (state, action) => {
                 basket: [...state.basket, action.payload]
             };
         case "REMOVE_FROM_BASKET":
+            const newBasket = [...state.basket];
+            const itemToRemoveIndex = state.basket.findIndex(
+                item => item.id === action.payload.id
+            );
+            newBasket.splice(itemToRemoveIndex, 1);
+
             return {
                 ...state,
-                basket: state.basket.filter(item => !item.action.payload.id)
+                basket: newBasket
             };
         default:
             return state;
